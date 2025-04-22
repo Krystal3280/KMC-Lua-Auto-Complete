@@ -1086,6 +1086,11 @@
             "args": "name:String, arg1:Dynamic, arg2:Dynamic",
             "documentation": "Triggers an event without you having to chart them.\n* `name` - Event name on Chart Editor\n* `arg1` - Value 1 on Chart Editor\n* `arg2` - Value 2 on Chart Editor"
         },
+        "tweenShaderVar": {
+            "returns": "void",
+            "args": "tag:String, sprite:String, uniform:String, value:Dynamic = null, duration:Float = 1, ease:String = 'linear'",
+            "documentation": "Tween's a shader float (Fork Exclusive)"
+        },
         "updateHitbox": {
             "returns": "void",
             "args": "obj:String",
